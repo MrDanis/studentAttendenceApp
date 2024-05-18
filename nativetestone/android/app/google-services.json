@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "817088709211",
+    "firebase_url": "https://schoolattendance-9d8c6-default-rtdb.firebaseio.com",
+    "project_id": "schoolattendance-9d8c6",
+    "storage_bucket": "schoolattendance-9d8c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817088709211:android:756c15ace99f20f73fb57e",
+        "android_client_info": {
+          "package_name": "com.example.sample1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCI3PeODDo46nhY5B0Mkm9UkGcTYJa24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817088709211:android:950d4a88eb88ba093fb57e",
+        "android_client_info": {
+          "package_name": "com.nativetestone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCI3PeODDo46nhY5B0Mkm9UkGcTYJa24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817088709211:android:ca27c0eb2e7650793fb57e",
+        "android_client_info": {
+          "package_name": "com.studentattendence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCI3PeODDo46nhY5B0Mkm9UkGcTYJa24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
