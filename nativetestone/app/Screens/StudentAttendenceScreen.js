@@ -10,7 +10,7 @@ const StudentAttendenceScreen = ({onUserUpdate,currentLoginUserData}) => {
     <View style={{flex:1,padding:10,backgroundColor:'#FFFFFF'}}>
       <View style={{flex:1,padding:5}}>
        <Text style={{color:'#000000',marginBottom:5}}>
-          User Name : {+' '+currentLoginUserData?.name} 
+          User Name : {currentLoginUserData?.name} 
        </Text>
        <Text style={{color:'#000000',marginBottom:5}}>
           Attendence Count : {+' '+currentLoginUserData?.total_attendance} 
@@ -19,7 +19,16 @@ const StudentAttendenceScreen = ({onUserUpdate,currentLoginUserData}) => {
           Joining Year : {+' '+currentLoginUserData?.starting_year }
        </Text>
        <Text style={{color:'#000000',marginBottom:5}}>
-          Performance Grade : {+' '+currentLoginUserData?.standing }
+          Performance Grade : {currentLoginUserData?.standing }
+       </Text>
+       <Text style={{color:'#000000',marginBottom:5}}>
+          Major : {currentLoginUserData?.major }
+       </Text>
+       <Text style={{color:'#000000',marginBottom:5}}>
+          Last Attandence Time : {currentLoginUserData?.last_attendance_time }
+       </Text>
+       <Text style={{color:'#000000',marginBottom:5}}>
+          Starting Year : {currentLoginUserData?.starting_year }
        </Text>
       </View>
        <Button

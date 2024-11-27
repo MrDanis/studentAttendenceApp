@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import { View, TextInput, Text, Button, StyleSheet } from 'react-native';
+import { View, TextInput, Text, Button,Image, StyleSheet } from 'react-native';
 import database from '@react-native-firebase/database';
 // import { getUsersData } from '../Utils/FirebaseDataReducers';
 // import { useDispatch } from 'react-redux';
@@ -38,6 +38,9 @@ const LoginScreen = ({onUserUpdate}) => {
   },[data])
   return (
     <View style={styles.container}>
+      <View style={{borderWidth:0,borderColor:'red',width:'100%',height:'40%',display:'flex',alignItems:'center',justifyContent:'center'}}>
+        <Image style={{width:'60%',height:'70%'}} source={require('../assets/Images/COMSATS.png')}/>
+      </View>
     <Text style={styles.label}>Enter your registration number:</Text>
     <TextInput
       style={styles.input}
